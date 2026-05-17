@@ -5,21 +5,18 @@ import uvicorn
 from chat import *
 
 app = FastAPI()
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"], # Explicitly allow your website
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
+# 1. Combined all your origins into one clean list
 origins = [
+    "https://www.placededu.com", 
+    "https://placededu.com",
+    "http://localhost:3000",
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-    "https://edubuddy-chatbot.onrender.com",
-    # "https://your-domain.com",  # Production domain
+    "https://edubuddy-chatbot.onrender.com"
 ]
 
+# 2. Only ONE middleware block
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -39,7 +36,8 @@ class PredictRequest(BaseModel):
 async def cron_job():
     return {"message": "Cron job executed successfully!"}
 
-@app.post("/predict")
+# 3. CRITICAL FIX: Changed from /predict to /chat to match your Next.js frontend
+@app.post("/chat")
 async def predict(data: PredictRequest):
     text = data.message
     response = chat(text)
@@ -47,4 +45,3 @@ async def predict(data: PredictRequest):
 
 if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0', port=5000)
-
