@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "source": "placededu.com",
+    "pages_scraped": 8,
+    "pages_failed": 0
+  },
+  "static": {
+    "company": {
+      "name": "PLACED",
+      "tagline": "Infinite Possibilities. Definite Outcome.",
+      "type": "EdTech (Education Technology)",
+      "focus": "Placement Assistance for schools and colleges; career readiness, government exam prep, higher studies guidance.",
+      "location": "Kowdiar, Trivandrum, Kerala, India",
+      "address": "BNRA 162 A, Bhagavathi Nagar, Golf Links Road, Kowdiar P.O. Trivandrum — 695 003",
+      "phone": "+91 79075 97197",
+      "whatsapp": "7907597197",
+      "email": "info@placededu.in"
+    },
+    "leadership": [
+      {
+        "name": "A S Abhishek",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Vishnu Mohan R",
+        "role": "Co-Founder & COO"
+      },
+      {
+        "name": "Vigneswaran A R",
+        "role": "Co-Founder & CAO"
+      }
+    ],
+    "socials": {
+      "linkedin": "yes, you can find the links on the bottom",
+      "instagram": "yes, you can find the links on the bottom",
+      "youtube": "yes, you can find the links on the bottom",
+      "telegram": "yes, you can find the links on the bottom",
+      "playstore": "yes, you can find the links on the bottom"
+    },
+    "navigation": {
+      "Home": "contains the main landing page with scrolling sections that explain the company, its programs, and its information",
+      "About Us": "About the company, its vision, and its mission",
+      "Programs": "Detailed information about the three main programs offered by PLACED: Corporate Readiness, Public Exam Foundation, and Academic Navigator",
+      "Mentors": "Information about the mentors associated with PLACED",
+      "Alumni": "Success stories of alumni who have benefited from PLACED's programs",
+      "Book Demo": "A call-to-action for institutions to book a demo of PLACED's offerings"
+    },
+    "journey": [
+      {
+        "step": 1,
+        "title": "Apply",
+        "desc": "Submit your profile and pass the diagnostic assessment."
+      },
+      {
+        "step": 2,
+        "title": "Upskill",
+        "desc": "Progressive learning mapped to real corporate needs."
+      },
+      {
+        "step": 3,
+        "title": "Simulate",
+        "desc": "Experience end-to-end mock recruitment pressure."
+      },
+      {
+        "step": 4,
+        "title": "Outcome",
+        "desc": "Achieve success in placements or higher education."
+      }
+    ],
+    "architecture": {
+      "phases": 7,
+      "phase_1": "Diagnostic Analysis",
+      "note": "A highly structured, interactive learning framework designed to build problem-solving ability and real-world readiness from day one."
+    },
+    "about": {
+      "vision": "Build an inclusive education platform that allows learners from different backgrounds to explore possibilities through learning that adapts to their needs and the world around them. Quality education should not be restricted by location, format, or circumstance.",
+      "mission": "Design education that leads to tangible outcomes. By combining technology with practical, engaging teaching methods, help learners build clarity, confidence, and capability. Focus on understanding and application so learning translates into real progress — academically, professionally, and personally."
+    },
+    "programs": [
+      {
+        "key": "corporate_readiness",
+        "name": "Corporate Readiness",
+        "focus": "Placement Focus",
+        "desc": "Prepares students for real placement success. Covers Quantitative Aptitude, Logical Reasoning, Verbal Ability, and Mock Simulations. Brings aptitude, communication, and interview preparation into one structured learning process.",
+        "ideal_for": "Students targeting private sector / corporate placements."
+      },
+      {
+        "key": "public_exam",
+        "name": "Public Exam Foundation",
+        "focus": "Govt. Exam Focus",
+        "desc": "Designed to help students build a strong foundation for highly competitive government exams. Introduces students early to the structure and demands of national-level government careers through timed drills and concept-based exercises.",
+        "ideal_for": "Students targeting PSC, UPSC, banking, and other national government exams."
+      },
+      {
+        "key": "academic_navigator",
+        "name": "Academic Navigator",
+        "focus": "Higher Studies",
+        "desc": "Guides students through postgraduate programs, professional courses, and flexible learning pathways so they can make informed academic decisions without confusion.",
+        "ideal_for": "Students planning for PG, professional certifications, or further academic qualifications."
+      }
+    ]
+  },
+  "scraped": [
+    {
+      "key": "home",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\nINFINITE\nPOSSIBILITIES.\nDEFINITE\nOUTCOME.\nCombining technology with practical teaching methods to help learners build clarity, confidence, and capability. Real education for real-world contexts.\nEXPLORE PROGRAMS\nEXPLORE\nBUILD\nPREPARE\nADVANCE\nPERFORM\nACHIEVE\nDrag me around\nThe Placed\nJourney\nApply\nSubmit profile and pass the diagnostic assessment.\nUpskill\nProgressive learning mapped to real corporate needs.\nSimulate\nExperience end-to-end mock recruitment pressure.\nOutcome\nAchieve success in placements or higher education.\nOur 7-Phase\nArchitecture\nWe don't just teach. We utilize a highly structured, interactive learning framework designed to build problem-solving ability and real-world readiness from day one.\n01\nDiagnostic Analysis\nTech-enabled baseline assessments to evaluate learning gaps.\n02\n03\n04\n05\n06\n07\nThe Placed\nEcosystem\nOne connected framework supporting students across multiple career options. Move forward based on your goals and progress without fragmented training efforts.\nCorporate Readiness\nPlacement Focus\n→\nPublic Exam Foundation\nGovt. Exam Focus\n→\nAcademic Navigator\nHigher Studies\n→\nMeet the\nLeadership\nProfile\nA S ABHISHEK\nCo-Founder & CEO\nProfile\nVISHNU MOHAN R\nCo-Founder & COO\nProfile\nVIGNESWARAN A R\nCo-Founder & CAO\n\"\n?\n!\nLEARN FROM THE\nBEST.\nShow More →\nAlumni\nSuccess\nRead All Stories →\nLoading alumni stories...\nThe premier EdTech platform for ambitious students. One system supporting every student's next step.\nInfinite Possibilities.\nDefinite Outcome.\nExplore\nHome\nAbout Us\nPrograms\nMentors\nAlumni Success\nSupport & Contact\nContact Us\nHelp Center & FAQ\nPrivacy Policy\nCall:\n+91 79075 97197\nConnect With Us\nGet Our App\n© 2026 PLACED. All rights reserved."
+    },
+    {
+      "key": "about",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n← Go Back\nAbout\nPLACED\nPLACED is built on a simple belief: education should be accessible, relevant, and capable of leading to real outcomes for the people who engage with it. As learning and careers continue to change, it’s clear that education can no longer rely on rigid systems or outdated methods. The way people learn, grow, and prepare for the future has evolved and PLACED exists to grow with that change. We focus on rethinking how learning is delivered and applied, so it remains useful beyond the classroom and meaningful in real-world contexts.\nOur Vision\nOur vision is to build an inclusive education platform that allows learners from different backgrounds to explore possibilities through learning that adapts to their needs and the world around them. We believe quality education should not be restricted by location, format, or circumstance. When used with intent, technology has the power to widen access, improve relevance, and create lasting impact.\nOur Mission\nAt PLACED, our mission is simple: to design education that leads to tangible outcomes. By combining technology with practical, engaging teaching methods, we aim to help learners build clarity, confidence, and capability. We focus on understanding and application, so learning translates into progress academically, professionally, and personally.\nEducation will continue to evolve, and PLACED is committed to evolving alongside it. By staying grounded in purpose while adapting to emerging needs, we work toward making outcome-driven education accessible to all, without losing sight of structure, responsibility, or long-term impact.\nInfinite Possibilities, Definite Outcome.\nOfficial Line:\n+91 79075 97197"
+    },
+    {
+      "key": "programs",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n← Back to Home\nThe PLACED\nEcosystem\nOne connected framework supporting students across multiple career options. Move forward based on your goals and progress without fragmented training efforts.\nCorporate Readiness\nPlacement Focus\nPreparing students for real placement success. We bring aptitude, communication, and interview preparation into one structured learning process. Focuses on Quantitative Aptitude, Logical Reasoning, Verbal Ability, and Mock Simulations.\nExplore Program\nPublic Exam Foundation\nGovt. Exam Focus\nDesigned to help students build a strong foundation for highly competitive exams. Introduces students early to the structure and demands of national-level government careers through timed drills and concept-based exercises.\nExplore Program\nAcademic Navigator\nHigher Studies\nNot every student takes the same path. We guide students through postgraduate programs, professional courses, and flexible learning pathways so they can make informed academic decisions without confusion.\nExplore Program"
+    },
+    {
+      "key": "corporate_readiness",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "← Go Back\nPLACEMENT & CAREER FOCUS\nCorporate\nReadiness\nBridging the gap between institutional learning and professional excellence. Our framework covers the entire spectrum of employability—from raw analytical power to high-level corporate emotional intelligence.\nAptitude & Analytical Skills\nFocus on skills most frequently assessed during recruitment screening.\nCommunication & Soft Skills\nDeveloping clarity, confidence, and professionalism for academic and professional environments.\nPersonal Development & Profile Building\nBuilding the right mindset, self-management skills, and presenting yourself professionally.\nRecruitment Readiness & Digital Literacy\nPreparing for the final stages GDs, Interviews, Mock Drives, and workplace literacy.\nReady to transform your campus?\nImplement this detailed curriculum at your institution to guarantee placement success.\nPartner With Us"
+    },
+    {
+      "key": "public_exam",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "← Go Back\nGOVT. EXAM FOCUS\nPublic Exam\nFoundation\nA significant number of students aim for secure careers through competitive government examinations like\nSSC, RRB, and central banking tracks (IBPS/SBI), UPSC(CSAT), PSC and many more\n. PLACED's Public Exam Foundation Program addresses preparation gaps early by combining tech-enabled timed drills, data-oriented concept evaluation, and robust simulated baseline test frameworks.\nQuantitative Aptitude\nComprehensive mathematical fundamentals designed to maximize speed and accuracy.\nReasoning Ability\nLogical problem solving, pattern recognition, and analytical thinking.\nEnglish Language\nMastery of grammar rules, vocabulary, and reading comprehension.\nGeneral Awareness\nComprehensive coverage of history, polity, geography, and economics.\nEmpower Public Sector Aspirants\nBring structured public exam preparation directly to your institution.\nSchedule a Demo"
+    },
+    {
+      "key": "academic_navigator",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "← Go Back\nHigher Studies Guidance\nAcademic Navigator\nMany graduating students face intense confusion when navigating the transition between entering the workforce, preparing for competitive exams, or pursuing higher studies. To resolve this, PLACED provides clear guidance through a structured framework that aligns postgraduate selections, professional pathways, and learning tracks directly with each student's personal interests and long-term career goals. This initiative is heavily supported by a strategic collaboration with Indian Edu Hub, which grants students structured administrative support and open access to diverse higher education opportunities. Crucially, the system integrates these pathways, allowing students to concurrently pursue postgraduate studies while actively preparing for placements or government exams, offering continuous skill development as a value-added ecosystem support with absolutely no hidden costs.\nAcademic Profiling Dashboard\nAccess your personal mapping parameters to discover your optimal higher education or professional path.\nGo To Dashboard →"
+    },
+    {
+      "key": "mentors",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n\"\n?\n!\n← Back to Home\nLearn From The\nBest\nIndustry experts bringing real-world corporate expectations directly to your campus.\nLoading Mentors..."
+    },
+    {
+      "key": "alumni",
+      "status": "ok",
+      "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n← Back to Home\nAlumni\nSuccess\nRead the inspiring stories of our scholars who bridged the gap to their dream careers.\nLoading success stories..."
+    }
+  ]
+}
