@@ -56,7 +56,7 @@ STATIC_FALLBACK: dict = {
         "Home": "contains the main landing page with scrolling sections that explain the company, its programs, and its information",
         "About Us": "About the company, its vision, and its mission",
         "Programs": "Detailed information about the three main programs offered by PLACED: Corporate Readiness, Public Exam Foundation, and Academic Navigator",
-        "Mentors": "Information about the mentors associated with PLACED",
+        "Mentors": "Information about the mentors associated with PLACED, the mentors are :\nTess - General Awareness Expert\nRishi - General Awareness Expert\nJishnu - General Awareness Expert\nPrem Harshan - Soft Skills and Verbal Ability Coach\nIbnu Syed S - Industry expert\nAnantha Krishnan P - Industry expert\nAnoushka V - Industry expert\nMichelle - Technical and Aptitude Expert\nVarun Menon - Soft Skill and General Awareness Expert\nNayana T - Aptitude Expert\nNandhana - Aptitude Expert\nNeethu T - Aptitude Expert\nJithesh Krishnan R - Recruitment Coach\nMithun - Aptitude Expert\nGeorge - Aptitude Expert\nTaniya Eliza Thomas - General Awareness Expert",
         "Alumni": "Success stories of alumni who have benefited from PLACED's programs",
         "Book Demo": "A call-to-action for institutions to book a demo of PLACED's offerings"
     },
@@ -112,7 +112,6 @@ STATIC_FALLBACK: dict = {
     "scraped_pages": [],
 }
  
- 
 def _load_kb() -> dict:
     """Load placed_kb.json; fall back to STATIC_FALLBACK if unavailable."""
     if os.path.exists(KB_PATH):
@@ -131,7 +130,6 @@ def _load_kb() -> dict:
         except (json.JSONDecodeError, KeyError):
             pass
     return STATIC_FALLBACK
- 
  
 KB: dict = _load_kb()
  
@@ -153,13 +151,11 @@ def _company_text() -> str:
         f"Email: {c['email']}\n",
     )
  
- 
 def _leadership_text() -> str:
     lines = ["Leadership Team:"]
     for person in KB["leadership"]:
         lines.append(f"  - {person['name']} — {person['role']}")
     return "\n".join(lines)
- 
  
 def _programs_text() -> str:
     lines = ["Programs offered by PLACED:"]
@@ -171,13 +167,11 @@ def _programs_text() -> str:
         )
     return "\n".join(lines)
  
- 
 def _journey_text() -> str:
     lines = ["The PLACED Student Journey (4 steps):"]
     for step in KB["journey"]:
         lines.append(f"  Step {step['step']} — {step['title']}: {step['desc']}")
     return "\n".join(lines)
- 
  
 def _about_text() -> str:
     a = KB["about"]
@@ -185,7 +179,6 @@ def _about_text() -> str:
         f"Vision: {a['vision']}\n\n"
         f"Mission: {a['mission']}"
     )
- 
  
 def _navigation_text() -> str:
     lines = ["Site Navigation (page name):"]
@@ -209,7 +202,7 @@ def _scraped_pages_text() -> str:
         return "No live scraped content available. Using static knowledge base."
     chunks: list[str] = []
     for page in pages:
-        # Trim to ~600 chars per page to stay within token budgets
+        # Trim to 600 chars per page to stay within token budgets
         text = page["text"][:600].strip()
         if text:
             chunks.append(f"[Page: {page['key']}]\n{text}")

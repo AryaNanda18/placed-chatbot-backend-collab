@@ -41,7 +41,7 @@
       "Home": "contains the main landing page with scrolling sections that explain the company, its programs, and its information",
       "About Us": "About the company, its vision, and its mission",
       "Programs": "Detailed information about the three main programs offered by PLACED: Corporate Readiness, Public Exam Foundation, and Academic Navigator",
-      "Mentors": "Information about the mentors associated with PLACED",
+      "Mentors": "Information about the mentors associated with PLACED, the mentors are :\nTess - General Awareness Expert\nRishi - General Awareness Expert\nJishnu - General Awareness Expert\nPrem Harshan - Soft Skills and Verbal Ability Coach\nIbnu Syed S - Industry expert\nAnantha Krishnan P - Industry expert\nAnoushka V - Industry expert\nMichelle - Technical and Aptitude Expert\nVarun Menon - Soft Skill and General Awareness Expert\nNayana T - Aptitude Expert\nNandhana - Aptitude Expert\nNeethu T - Aptitude Expert\nJithesh Krishnan R - Recruitment Coach\nMithun - Aptitude Expert\nGeorge - Aptitude Expert\nTaniya Eliza Thomas - General Awareness Expert",
       "Alumni": "Success stories of alumni who have benefited from PLACED's programs",
       "Book Demo": "A call-to-action for institutions to book a demo of PLACED's offerings"
     },
@@ -148,12 +148,79 @@
       "status": "ok",
       "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
       "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
+      "mentors": [
+        {
+          "name": "Tess",
+          "expertise": "General Awareness Expert"
+        },
+        {
+          "name": "Rishi",
+          "expertise": "General Awareness Expert"
+        },
+        {
+          "name": "Jishnu",
+          "expertise": "General Awareness Expert"
+        },
+        {
+          "name": "Prem Harshan",
+          "expertise": "Soft Skills and Verbal Ability Coach"
+        },
+        {
+          "name": "Ibnu Syed S",
+          "expertise": "Industry expert"
+        },
+        {
+          "name": "Anantha Krishnan P",
+          "expertise": "Industry expert"
+        },
+        {
+          "name": "Anoushka V",
+          "expertise": "Industry expert"
+        },
+        {
+          "name": "Michelle",
+          "expertise": "Technical and Aptitude Expert"
+        },
+        {
+          "name": "Varun Menon",
+          "expertise": "Soft Skill and General Awareness Expert"
+        },
+        {
+          "name": "Nayana T",
+          "expertise": "Aptitude Expert"
+        },
+        {
+          "name": "Nandhana",
+          "expertise": "Aptitude Expert"
+        },
+        {
+          "name": "Neethu T",
+          "expertise": "Aptitude Expert"
+        },
+        {
+          "name": "Jithesh Krishnan R",
+          "expertise": "Recruitment Coach"
+        },
+        {
+          "name": "Mithun",
+          "expertise": "Aptitude Expert"
+        },
+        {
+          "name": "George",
+          "expertise": "Aptitude Expert"
+        },
+        {
+          "name": "Taniya Eliza Thomas",
+          "expertise": "General Awareness Expert"
+        }
+      ],
       "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n\"\n?\n!\n← Back to Home\nLearn From The\nBest\nIndustry experts bringing real-world corporate expectations directly to your campus.\nLoading Mentors..."
     },
     {
       "key": "alumni",
       "status": "ok",
       "title": "PLACED | Empowering Institutions & Advancing Student Outcomes",
+      "redirect": "click on the alumni tab to find success stories to read more about them",
       "description": "PLACED partners with colleges and academic institutions to deliver structured career readiness programs, competitive exam preparation frameworks, and industry-oriented student development initiatives.",
       "text": "Home\nAbout Us\nPrograms\nMentors\nLeadership\nAlumni\nBook Demo\n← Back to Home\nAlumni\nSuccess\nRead the inspiring stories of our scholars who bridged the gap to their dream careers.\nLoading success stories..."
     }
