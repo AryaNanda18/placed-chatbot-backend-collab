@@ -35,6 +35,8 @@ def chat(message: str = "") -> str:
             base_url="https://api.groq.com/openai/v1",
             api_key=API_KEY,
             system_prompt=system_prompt,
+            max_tokens=250,
+            temperature=0.7,
         )
 
         register_all_contexts(agent)

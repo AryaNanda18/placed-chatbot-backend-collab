@@ -29,6 +29,8 @@ class Agent:
     tools: Tools = field(default_factory=Tools)
     contexts: dict[str, Callable[[], str]] = field(default_factory=dict)
     messages: list[dict[str, Any]] = field(default_factory=list)
+    max_tokens: int = 250
+    temperature: float = 0.7
  
     def __post_init__(self) -> None:
         self.base_url = self.base_url.rstrip("/")
