@@ -1,6 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from itertools import cycle
+import httpx
 import uvicorn
 from chat import *
 
@@ -13,8 +15,12 @@ origins = [
     "http://localhost:3000",
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-    "https://edubuddy-chatbot.onrender.com"
 ]
+
+apis = cycle([
+    "https://edubuddy-api-0wsz.onrender.com",
+    "https://edubuddy-chatbot.onrender.com"
+])
 
 # 2. Only ONE middleware block
 app.add_middleware(
@@ -24,6 +30,25 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.api_route("/{path:path}", methods=["GET", "POST"])
+async def round_robin_proxy(request: Request, path: str):
+    # Select the next server in the cycle
+    next_server = next(apis)
+    target_url = f"{next_server}/{path}"
+    
+    # Read the incoming request body
+    body = await request.body()
+    
+    # Forward the request using httpx
+    async with httpx.AsyncClient() as client:
+        response = await client.request(
+            method=request.method,
+            url=target_url,
+            headers=dict(request.headers),
+            content=body
+        )
+        return response.content
 
 @app.get("/")
 async def main():
@@ -44,4 +69,4 @@ async def predict(data: PredictRequest):
     return {"answer": response}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host='0.0.0.0', port=5000)
+    uvicorn.run("app_fastapi:app", host='0.0.0.0', port=5000, workers=4)
