@@ -31,6 +31,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def main():
+    return {"message": "CORS is configured!"}
+
+class PredictRequest(BaseModel):
+    message: str = ""
+
+# 3. CRITICAL FIX: Changed from /predict to /chat to match your Next.js frontend
+@app.post("/chat")
+async def predict(data: PredictRequest):
+    text = data.message
+    response = chat(text)
+    return {"answer": response}
+
+@app.get("/cron-job")
+async def cron_job():
+    return {"message": "Cron job executed successfully!"}
+
 @app.api_route("/{path:path}", methods=["GET", "POST"])
 async def round_robin_proxy(request: Request, path: str):
     # Select the next server in the cycle
@@ -49,24 +67,6 @@ async def round_robin_proxy(request: Request, path: str):
             content=body
         )
         return response.content
-
-@app.get("/")
-async def main():
-    return {"message": "CORS is configured!"}
-
-class PredictRequest(BaseModel):
-    message: str = ""
-    
-@app.get("/cron-job")
-async def cron_job():
-    return {"message": "Cron job executed successfully!"}
-
-# 3. CRITICAL FIX: Changed from /predict to /chat to match your Next.js frontend
-@app.post("/chat")
-async def predict(data: PredictRequest):
-    text = data.message
-    response = chat(text)
-    return {"answer": response}
 
 if __name__ == "__main__":
     uvicorn.run("app_fastapi:app", host='0.0.0.0', port=5000, workers=4)
