@@ -31,7 +31,7 @@ if TYPE_CHECKING:
  
 KB_PATH = os.path.join(os.path.dirname(__file__), "placed_kb.json")
  
-# Embedded fallback so the bot works even if scraper.py hasn't been run yet.
+# Embedded fallback
 STATIC_FALLBACK: dict = {
     "company": {
         "linkedin": "yes, you can find the links on the bottom",
@@ -118,8 +118,6 @@ def _load_kb() -> dict:
         try:
             with open(KB_PATH, "r", encoding="utf-8") as f:
                 raw = json.load(f)
-            # placed_kb.json has {"static": {...}, "scraped": [...]}
-            # Merge scraped page texts into the static layer for richer answers.
             kb = raw.get("static", STATIC_FALLBACK).copy()
             kb["scraped_pages"] = [
                 {"key": p["key"], "text": p.get("text", "")}
@@ -134,8 +132,6 @@ def _load_kb() -> dict:
 KB: dict = _load_kb()
  
 # Context-string builders
-# (each returns a plain string; no asterisks, no markdown — matches
-# existing structure_context rule)
  
 def _company_text() -> str:
     c = KB["company"]
