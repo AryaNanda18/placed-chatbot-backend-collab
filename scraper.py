@@ -38,7 +38,6 @@ PAGES: dict[str, str] = {
  
 OUTPUT_FILE = "placed_kb.json"
  
-# Tags that never contain useful body text
 NOISE_TAGS = ["script", "style", "noscript", "svg", "img",
                "meta", "link", "head"]
  
@@ -53,7 +52,6 @@ def clean_text(soup: BeautifulSoup) -> str:
         for line in soup.get_text(separator="\n").splitlines()
         if line.strip()
     ]
-    # Deduplicate consecutive identical lines (nav links repeat)
     deduped: list[str] = []
     for line in lines:
         if not deduped or line != deduped[-1]:
@@ -106,9 +104,6 @@ def scrape_page(key: str, url: str) -> dict:
         "text":        text,
         "links":       links,
     }
- 
-# Static fallback knowledge
-# (used when live scraping fails or as guaranteed base layer)
  
 STATIC_KB: dict = {
     "company": {
