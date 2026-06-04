@@ -1,0 +1,13 @@
+# ENV
+.env
+.gitignore
+
+# Frontend
+standalone-frontend/
+
+# Files
+.vscode/
+__pycache__/
+*.log
+*.pyc
+venv/
