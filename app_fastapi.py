@@ -51,14 +51,11 @@ async def cron_job():
 
 @app.api_route("/{path:path}", methods=["GET", "POST"])
 async def round_robin_proxy(request: Request, path: str):
-    # Select the next server in the cycle
     next_server = next(apis)
     target_url = f"{next_server}/{path}"
     
-    # Read the incoming request body
     body = await request.body()
     
-    # Forward the request using httpx
     async with httpx.AsyncClient() as client:
         response = await client.request(
             method=request.method,
